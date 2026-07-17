@@ -174,7 +174,7 @@ Handles multi-step, real-world word problems — discounts, GST, change calculat
 ### 🌤️ Weather & Time
 Fetches live date, time, and weather conditions (temperature, wind speed) for any city in a single natural query.
 
-<img src="./assets/Wheather_Date_Time.png" alt="Weather and Time Tool" width="700"/>
+<img src="./assets/Wheather Date Time.png" alt="Weather and Time Tool" width="700"/>
 
 ### 📖 Dictionary
 Returns clear, natural-language definitions instead of raw dictionary API output.
