@@ -3,7 +3,7 @@
 > Think Less. Build More.
 
 <div align="center">
-<img src="assets/logo.png" width="180"/>
+<img src="assets/logo.jpg" width="180"/>
 
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_Now-6C63FF?style=for-the-badge)](https://dimind-1.vercel.app/)
 [![GitHub](https://img.shields.io/badge/📂_GitHub_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RajdeepSutradhar5105/DIMIND_AI)
