@@ -10,7 +10,7 @@ An intelligent **Agentic AI Assistant** that automatically understands your requ
   <a href="https://dimind-1.vercel.app/">
     <img src="https://img.shields.io/badge/🚀_Live_Demo-Visit_Now-6C63FF?style=for-the-badge" />
   </a>
-  <a href="https://github.com/YOUR_USERNAME/YOUR_REPOSITORY">
+  <a href="[https://github.com/YOUR_USERNAME/YOUR_REPOSITORY](https://github.com/RajdeepSutradhar5105/DIMIND_AI.git)">
     <img src="https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPOSITORY?style=for-the-badge" />
   </a>
   <img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=nextdotjs"/>
