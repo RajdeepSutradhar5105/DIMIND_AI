@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* Signature backdrop: faint synaptic circuit lattice, echoing the mark's
+   half-brain / half-circuit motif. Kept quiet and out of the way of content. */
+body {
+  background-color: #05060f;
+  background-image:
+    radial-gradient(circle at 15% 8%, rgba(59, 111, 255, 0.10), transparent 40%),
+    radial-gradient(circle at 85% 92%, rgba(217, 70, 239, 0.08), transparent 45%),
+    linear-gradient(rgba(139, 92, 246, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(139, 92, 246, 0.05) 1px, transparent 1px);
+  background-size: auto, auto, 46px 46px, 46px 46px;
+  background-attachment: fixed;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e2145;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3b6fff;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #1e2145 transparent;
+}
+
+:focus-visible {
+  outline: 2px solid #5a86ff;
+  outline-offset: 2px;
+}
+
+.text-gradient {
+  background-image: linear-gradient(135deg, #5a86ff 0%, #a855f7 55%, #e879f9 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.prose-chat {
+  line-height: 1.65;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.prose-chat strong {
+  color: #f2f3fb;
+  font-weight: 600;
+}
+
+.prose-chat code {
+  font-family: var(--font-mono);
+  background: rgba(139, 92, 246, 0.12);
+  border: 1px solid rgba(139, 92, 246, 0.25);
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-size: 0.85em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
