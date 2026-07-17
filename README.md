@@ -304,26 +304,74 @@ AI • Machine Learning • Agentic AI • Full Stack Development
 
 # 📸 Project Gallery
 
-<p align="center">
-  <img src="assets/home.png" width="45%">
-  <img src="assets/chat.png" width="45%">
-</p>
+## 🏠 Home Interface
 
 <p align="center">
-  <img src="assets/weather.png" width="45%">
-  <img src="assets/calculator.png" width="45%">
+  <img src="assets/HOME.png" alt="Dimind AI Home" width="90%">
 </p>
 
-<p align="center">
-  <img src="assets/pdf.png" width="45%">
-  <img src="assets/qr.png" width="45%">
-</p>
+---
+
+## 🧮 Calculator Tool
 
 <p align="center">
-  <img src="assets/dictionary.png" width="45%">
-  <img src="assets/converter.png" width="45%">
+  <img src="assets/Calculator.png" alt="Calculator" width="90%">
 </p>
 
+---
+
+## ⏰ Time & 🌤 Weather Tool
+
 <p align="center">
-  <img src="assets/code-explainer.png" width="45%">
+  <img src="assets/Wheather%20Date%20Time.png" alt="Weather and Time" width="90%">
 </p>
+
+---
+
+## 📖 Dictionary Tool
+
+<p align="center">
+  <img src="assets/dictionary.png" alt="Dictionary" width="90%">
+</p>
+
+---
+
+## 📏 Unit Converter
+
+<p align="center">
+  <img src="assets/converter.png" alt="Unit Converter" width="90%">
+</p>
+
+---
+
+## 💻 Code Explainer
+
+<p align="center">
+  <img src="assets/CODE.png" alt="Code Explainer" width="90%">
+</p>
+
+---
+
+## 📄 PDF Generator
+
+### PDF Generation Request
+
+<p align="center">
+  <img src="assets/PDF1.png" alt="PDF Request" width="90%">
+</p>
+
+### Generated PDF
+
+<p align="center">
+  <img src="assets/PDF2.png" alt="Generated PDF" width="90%">
+</p>
+
+---
+
+## 📱 QR Code Generator
+
+<p align="center">
+  <img src="assets/QR.png" alt="QR Generator" width="90%">
+</p>
+
+---
