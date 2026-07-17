@@ -199,25 +199,6 @@ The application is deployed on **Vercel**.
 
 ---
 
-# 📸 Screenshots
-
-> Add your application screenshots here.
-
-```
-assets/
-
-home.png
-
-chat.png
-
-pdf.png
-
-weather.png
-
-calculator.png
-```
-
----
 
 # 💡 Why Dimind?
 
@@ -302,76 +283,5 @@ AI • Machine Learning • Agentic AI • Full Stack Development
 
 </div>
 
-# 📸 Project Gallery
 
-## 🏠 Home Interface
 
-<p align="center">
-  <img src="assets/HOME.png" alt="Dimind AI Home" width="90%">
-</p>
-
----
-
-## 🧮 Calculator Tool
-
-<p align="center">
-  <img src="assets/Calculator.png" alt="Calculator" width="90%">
-</p>
-
----
-
-## ⏰ Time & 🌤 Weather Tool
-
-<p align="center">
-  <img src="assets/Wheather%20Date%20Time.png" alt="Weather and Time" width="90%">
-</p>
-
----
-
-## 📖 Dictionary Tool
-
-<p align="center">
-  <img src="assets/dictionary.png" alt="Dictionary" width="90%">
-</p>
-
----
-
-## 📏 Unit Converter
-
-<p align="center">
-  <img src="assets/converter.png" alt="Unit Converter" width="90%">
-</p>
-
----
-
-## 💻 Code Explainer
-
-<p align="center">
-  <img src="assets/CODE.png" alt="Code Explainer" width="90%">
-</p>
-
----
-
-## 📄 PDF Generator
-
-### PDF Generation Request
-
-<p align="center">
-  <img src="assets/PDF1.png" alt="PDF Request" width="90%">
-</p>
-
-### Generated PDF
-
-<p align="center">
-  <img src="assets/PDF2.png" alt="Generated PDF" width="90%">
-</p>
-
----
-
-## 📱 QR Code Generator
-
-<p align="center">
-  <img src="assets/QR.png" alt="QR Generator" width="90%">
-</p>
-
----
