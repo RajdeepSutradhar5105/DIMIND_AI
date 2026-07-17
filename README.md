@@ -8,19 +8,26 @@ An intelligent **Agentic AI Assistant** that automatically understands your requ
 
 <p align="center">
   <a href="https://dimind-1.vercel.app/">
-    <img src="https://img.shields.io/badge/🚀_Live_Demo-Visit_Now-6C63FF?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/🚀_Live_Demo-Visit_Now-6C63FF?style=for-the-badge"/>
   </a>
-  <a href="[https://github.com/YOUR_USERNAME/YOUR_REPOSITORY](https://github.com/RajdeepSutradhar5105/DIMIND_AI.git)">
-    <img src="https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPOSITORY?style=for-the-badge" />
+
+  <a href="https://github.com/RajdeepSutradhar5105/DIMIND_AI">
+    <img src="https://img.shields.io/badge/📂_GitHub_Repository-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
+
+  <a href="https://github.com/RajdeepSutradhar5105/DIMIND_AI">
+    <img src="https://img.shields.io/github/stars/RajdeepSutradhar5105/DIMIND_AI?style=for-the-badge"/>
+  </a>
+
   <img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=nextdotjs"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
   <img src="https://img.shields.io/badge/Groq-AI-orange?style=for-the-badge"/>
+
 </p>
 
-### 🌐 Live Application
+### 🌐 Live Demo
 
-## **https://dimind-1.vercel.app/**
+# https://dimind-1.vercel.app/
 
 </div>
 
@@ -28,80 +35,65 @@ An intelligent **Agentic AI Assistant** that automatically understands your requ
 
 # ✨ About
 
-Dimind AI is a modern **Agentic AI Assistant** designed to provide a seamless conversational experience.
+Dimind AI is a modern **Agentic AI Assistant** built using **Next.js**, **TypeScript**, and **Groq AI**.
 
-Instead of making users choose between different tools, Dimind intelligently analyzes every request, automatically selects the appropriate tool, executes it in the background, and returns a clean, human-like response.
+Unlike traditional chatbots, Dimind intelligently analyzes every user request, automatically selects the appropriate tool, executes it in the background, and responds naturally without exposing technical tool calls.
 
-No technical jargon.
-No tool names.
-Just intelligent conversations.
+Whether you need calculations, weather updates, code explanations, dictionary definitions, QR codes, PDF generation, or unit conversions, Dimind delivers a seamless conversational experience.
 
 ---
 
 # 🚀 Features
 
-✅ Natural AI Conversations
-
-✅ Automatic Tool Selection
-
-✅ PDF Generation
-
-✅ QR Code Generator
-
-✅ Calculator
-
-✅ Live Weather
-
-✅ Dictionary
-
-✅ Unit Converter
-
-✅ Code Explanation
-
-✅ Downloadable Files
-
-✅ Chat History
-
-✅ Fast & Responsive UI
-
-✅ Modern Design
+- 🤖 Agentic AI Assistant
+- 🧮 Smart Calculator
+- 🌤 Live Weather Information
+- ⏰ Current Date & Time
+- 📖 Dictionary
+- 📏 Unit Converter
+- 📱 QR Code Generator
+- 📄 PDF Generator
+- 💻 Code Explainer
+- 💬 Chat History
+- ⚡ Fast Responses
+- 🎨 Modern Responsive UI
 
 ---
 
-# 🛠️ Tech Stack
+# 🛠 Tech Stack
 
 | Category | Technologies |
-|-----------|-------------|
+|------------|-------------|
 | Frontend | Next.js, React, TypeScript |
 | Styling | Tailwind CSS |
-| AI | Groq API, Llama Models |
+| AI | Groq API |
 | Backend | Next.js API Routes |
 | PDF | pdf-lib |
+| QR | QR Server API |
 | Weather | Open-Meteo API |
 | Dictionary | Free Dictionary API |
-| QR Code | QR Server API |
 
 ---
 
-# ⚙️ How It Works
+# ⚙️ Workflow
 
 ```text
 User Query
       │
       ▼
- AI Understands Intent
+ Intent Detection
       │
       ▼
- Selects Appropriate Tool
+ Tool Selection
       │
       ▼
- Executes Tool
+ Execute Tool
       │
       ▼
- Generates Natural Response
+ AI Response Generation
       │
       ▼
-Returns Final Answer
+ Natural Language Answer
 ```
 
 ---
@@ -110,12 +102,13 @@ Returns Final Answer
 
 | Tool | Description |
 |------|-------------|
-| 🧮 Calculator | Perform mathematical calculations |
-| 🌤 Weather | Get real-time weather information |
-| 📖 Dictionary | Find meanings, synonyms & definitions |
-| 📏 Unit Converter | Convert measurement units |
+| 🧮 Calculator | Perform arithmetic calculations |
+| 🌤 Weather | Get live weather information |
+| ⏰ Time | Current Date & Time |
+| 📖 Dictionary | Find meanings of words |
+| 📏 Unit Converter | Convert units instantly |
+| 📱 QR Generator | Generate QR Codes |
 | 📄 PDF Generator | Generate downloadable PDFs |
-| 📱 QR Generator | Generate QR Codes instantly |
 | 💻 Code Explainer | Explain programming code |
 
 ---
@@ -134,11 +127,11 @@ app/
 │   ├── tools/
 │   │
 │   ├── calculator.ts
-│   ├── dictionary.ts
 │   ├── weather.ts
+│   ├── dictionary.ts
+│   ├── unit.ts
 │   ├── pdf.ts
 │   ├── qr.ts
-│   ├── unit.ts
 │   └── codeExplain.ts
 │
 └── public/
@@ -146,42 +139,40 @@ app/
 
 ---
 
-# 🚀 Getting Started
+# 🚀 Installation
 
-## Clone Repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-```
-
-## Navigate
+Clone the repository
 
 ```bash
-cd YOUR_REPOSITORY
+git clone https://github.com/RajdeepSutradhar5105/DIMIND_AI.git
 ```
 
-## Install Dependencies
+Move into the project
+
+```bash
+cd DIMIND_AI
+```
+
+Install dependencies
 
 ```bash
 npm install
 ```
 
-## Configure Environment
-
-Create a `.env.local`
+Create `.env.local`
 
 ```env
-GROQ_API_KEY=YOUR_API_KEY
+GROQ_API_KEY=YOUR_GROQ_API_KEY
 MODEL_NAME=llama-3.3-70b-versatile
 ```
 
-## Run
+Run locally
 
 ```bash
 npm run dev
 ```
 
-Visit
+Open
 
 ```
 http://localhost:3000
@@ -189,32 +180,97 @@ http://localhost:3000
 
 ---
 
-# 🌐 Deployment
+# 🌍 Live Demo
 
-The application is deployed on **Vercel**.
-
-### Live Demo
-
-## 👉 https://dimind-1.vercel.app/
+## 🚀 https://dimind-1.vercel.app/
 
 ---
 
+# 📸 Project Gallery
+
+## 🏠 Home Interface
+
+<p align="center">
+<img src="assets/HOME.png" width="95%">
+</p>
+
+---
+
+## 🧮 Calculator
+
+<p align="center">
+<img src="assets/Calculator.png" width="95%">
+</p>
+
+---
+
+## 🌤 Weather & Time
+
+<p align="center">
+<img src="assets/Wheather Date Time.png" width="95%">
+</p>
+
+---
+
+## 📖 Dictionary
+
+<p align="center">
+<img src="assets/dictionary.png" width="95%">
+</p>
+
+---
+
+## 📏 Unit Converter
+
+<p align="center">
+<img src="assets/converter.png" width="95%">
+</p>
+
+---
+
+## 💻 Code Explainer
+
+<p align="center">
+<img src="assets/CODE.png" width="95%">
+</p>
+
+---
+
+## 📄 PDF Generator
+
+### PDF Request
+
+<p align="center">
+<img src="assets/PDF1.png" width="95%">
+</p>
+
+### Generated PDF
+
+<p align="center">
+<img src="assets/PDF2.png" width="95%">
+</p>
+
+---
+
+## 📱 QR Code Generator
+
+<p align="center">
+<img src="assets/QR.png" width="95%">
+</p>
+
+---
 
 # 💡 Why Dimind?
 
-Unlike traditional AI assistants that expose tool calls and backend operations, Dimind focuses entirely on the user experience.
+Dimind focuses entirely on delivering a smooth AI experience.
 
-✔ Clean Responses
-
-✔ Automatic Intelligence
-
-✔ Modern UI
-
-✔ Fast Performance
-
-✔ Easy to Extend
-
-✔ Agentic Workflow
+- ✅ Automatic Tool Selection
+- ✅ Clean Natural Responses
+- ✅ Fast Performance
+- ✅ Responsive Interface
+- ✅ Downloadable Files
+- ✅ Easy to Extend
+- ✅ Agentic Workflow
 
 ---
 
@@ -223,9 +279,9 @@ Unlike traditional AI assistants that expose tool calls and backend operations, 
 - 🎙 Voice Assistant
 - 🖼 Image Generation
 - 📂 File Upload
-- 📑 Document Chat
-- 🎤 Speech to Text
-- 🔊 Text to Speech
+- 📑 AI Document Chat
+- 🎤 Speech-to-Text
+- 🔊 Text-to-Speech
 - 🧠 Long-Term Memory
 - 🌍 Multi-language Support
 - 🔐 Authentication
@@ -235,29 +291,27 @@ Unlike traditional AI assistants that expose tool calls and backend operations, 
 
 # 🤝 Contributing
 
-Contributions are always welcome.
+Contributions are welcome!
 
 ```bash
-Fork 🍴
+Fork the Repository
 
-Create Branch 🌿
+Create a Feature Branch
 
-Commit Changes ✅
+Commit your Changes
 
-Push 🚀
+Push to GitHub
 
-Open Pull Request 🎉
+Open a Pull Request
 ```
 
 ---
 
 # ⭐ Support
 
-If you like this project,
+If you found this project useful, consider giving it a ⭐ on GitHub.
 
-please consider giving it a ⭐ on GitHub.
-
-It really helps!
+It motivates future development!
 
 ---
 
@@ -267,21 +321,24 @@ It really helps!
 
 **B.Tech CSE (Data Science)**
 
-AI • Machine Learning • Agentic AI • Full Stack Development
+AI • Agentic AI • Machine Learning • Full Stack Development
+
+### 🔗 GitHub
+
+https://github.com/RajdeepSutradhar5105
+
+### 🌐 Live Demo
+
+https://dimind-1.vercel.app/
 
 ---
 
 <div align="center">
 
-### ⭐ Built with ❤️ by Rajdeep Sutradhar
+## ⭐ If you like this project, don't forget to star the repository!
 
-### 🌐 Live Demo
+Made with ❤️ by **Rajdeep Sutradhar**
 
-## https://dimind-1.vercel.app/
-
-**Happy Coding! 🚀**
+🚀 Happy Coding!
 
 </div>
-
-
-
